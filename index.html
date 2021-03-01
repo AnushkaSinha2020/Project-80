@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 80</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	    <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>Make a Story of 2 paragraphs</h1>
+        <br>
+        <div id="t">
+         <span id="ti">Title: </span>
+               <input type="text" placeholder="Type the Title the story" id="title">
+               <br>
+               <button onclick="getTitle()">Get Title of the Story</button>
+        </div>
+        <section>
+        <div id="abcd">
+         <div id="rows" style="float: left;">
+               <h3>Paragraph 1</h3>
+               <span>1.</span>
+               <input type="text" placeholder="Type the 1st line of the story" id="div_a_1">
+               <br>
+            
+               <span>2.</span>
+               <input type="text" placeholder="Type the 2nd line of the story" id="div_a_2">
+               <br>
+            
+               <span>3.</span>
+               <input type="text" placeholder="Type the 3rd line of the story" id="div_a_3">
+               <br>
+            
+               <span>4.</span>
+               <input type="text" placeholder="Type the 4th line of the story" id="div_a_4">
+               <br>
+
+               <span>5.</span>
+               <input type="text" placeholder="Type the 5th line of the story" id="div_a_5">
+               <br>
+
+               <span>6.</span>
+               <input type="text" placeholder="Type the 6th line of the story" id="div_a_6">
+               <br>
+               <button onclick="getParagraph1()">Get paragraph 1</button>
+               <br><br>
+            </div>
+
+            <div id="rows1" style="float: right;">
+                <h3>Paragraph 2</h3>
+                <span>1.</span>
+                <input type="text" placeholder="Type the 7th line of the story" id="div_b_1">
+                <br>
+                
+                <span>2.</span>
+                <input type="text" placeholder="Type the 8th line of the story" id="div_b_2">
+                <br>
+                
+                <span>3.</span>
+                <input type="text" placeholder="Type the 9th line of the story" id="div_b_3">
+                <br>
+                
+                <span>4.</span>
+                <input type="text" placeholder="Type the 10th line of the story" id="div_b_4">
+                <br>
+    
+                <span>5.</span>
+                <input type="text" placeholder="Type the 11th line of the story" id="div_b_5">
+                <br>
+    
+                <span>6.</span>
+                <input type="text" placeholder="Type the 12th line of the story" id="div_b_6">
+                <br>
+                <button onclick="getParagraph2()">Get paragraph 2</button>
+                <br><br>
+            </div>
+        </div>
+    </section>
+        <br> <br>
+        <section id="abc">
+            <div>
+             <div>
+                 <h1 id="showTitle"></h1>
+             </div>
+             <div>
+                <h2 id="showParagraph1"></h2>
+             </div>
+             <div>
+                <h2 id="showParagraph2"></h2>
+             </div>
+            </div>
+        </section>
+        <center>
+    </body>
+</html>
